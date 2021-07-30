@@ -1,0 +1,74 @@
+1. What is unary operator, Explain with an example?
+    -Javascript Unary operators which uses single operand and perform the function.
+    -The simplest operators in Javascriptis Unary operators.
+    -It works on  one operand.
+    there are mainly four types of operation we can do ...
+    *Unary (+), converts operand into numbers.
+    *Unary (-), same it also convert operand into number and Negate the 
+                 value after that.
+    *Unary (++),i.e Prefix and PostIncreament. Its add One(1) to the 
+                operand.
+    *Unary (--),i.e Prefix and PostIncreament. Its substrct One(1) to    
+                the operand.
+
+2. What is logical operators, Explain with an example?
+     Logical operators are important in javascript because they are allow to campare variables and do something based on that result of comparision.
+     foe example if the result of camparision is true,you perform a block of code ; if its false, then you perform another block of code;
+
+     It include following logical Operators.........
+     Logical NOT Operator ( ! )
+     Logical AND Operator ( && )
+     Logical OR Operator  ( || )
+
+     Logical NOT Operator( ! ) 
+        :-Javascript use Exclamation point "!" to represent NOT operator. The "!" NOT operator can be applied to any signle value  of any type, not just boolean value.
+        --WHen you apply "!"Operator to a boolean value, the "!" returns 'true' if the value is 'false'. And it returns 'fasle' if the value is 'true'.
+        for example 
+        let a = true;
+        console.log(!a);
+        output= false;
+ 
+    Logical AND Operator( && )
+    - Javascript use double ampersand ( && ) to represent logical AND Operator.
+    Here in && operator it campare two value if first one of the value is false then it will results as a false . If both value are true it will returns as true.
+    Bellow Table is there 
+
+    a             b              a&b
+    true          true           true
+    true          False          False
+    false         true           false
+    false         false          fasle
+    The result of the && operator is true only if both values are true, otherwise, it is false. 
+    for example 
+    let a = false;
+    let b = true;
+    console.log(a && b);//false
+
+    Logical OR Operator ( || )
+    --Javascript uses double pipe ( || ) to represent Logical OR operator
+      Here in (||) Oprators it check for both value if either value is true then it will give the result as true. ANd In case of both value are true then also it will give result as true only.
+      Only if Both values are false then it reutrns as a false.
+
+      The || operator returns false if both values evaluate to false. In case either value is , the || operator returns true.
+
+          x             y             x|y
+        true          true           true
+        true          False          true
+        false         true           true
+        false         false          fasle
+
+3. What is difference between === And !==? Where do we use it?
+    === (strict Equality) in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values. Checks the equality of two operands without considering their type. Compares equality of two operands with their types.
+
+
+  (!==) is Strict Inequality operater , it checks whether its two operands are not equal, and returning the boolean results as  true.The strict Inequality operators always consider operands of  different types to be different.
+  -It is the negation of strict equality.
+  for ex. console.log("6" !== 6); // true
+
+
+
+
+
+
+
+
